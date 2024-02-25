@@ -1,0 +1,23 @@
+@import "./variables";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-color a{
+    color: #6c757d;
+    &:hover{
+        color: $color-navbar;
+    }
+  
+   
+}
+.navbar-right{
+    a{
+        color: black;
+    }
+}
+#ceo{
+    background-color: #f8f9fa;
+}
